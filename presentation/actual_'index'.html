@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Emerging Technologies</title>
+<script type="text/javascript">
+function util_enterFullscreen() {
+    var element = document.documentElement;
+    try {
+        element.mozRequestFullScreen();
+        element.webkitRequestFullScreen();
+        element.requestFullscreen();
+        element.msRequestFullscreen();
+    } catch (e) {}
+}
+</script></head>
+<body><a onclick="util_enterFullscreen()">.</a></body>
+</html>

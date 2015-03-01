@@ -1,0 +1,38 @@
+/* xHome style */
+#xTiles {
+}
+
+
+
+.xCategory {
+	height: 300px;
+	width: 50%;
+	margin: 0;
+	display: block;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+#xCategoryOne {
+	background-color: #E7DF81;
+}
+.xCategory:hover {
+	opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+
+#xCategoryTwo {
+	background-color: #C36D93;
+}
+#xCategoryThree {
+	background-color: #569A83;
+	
+}
+#xCategoryFour {
+	background-color: #6E619F;
+}
