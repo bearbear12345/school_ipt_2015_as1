@@ -1,4 +1,5 @@
 /* Global Style */
+@import url(http://fonts.googleapis.com/css?family=Lato);
 
 html, body {
 	margin: 0;
@@ -8,6 +9,11 @@ html, body {
 #zWrapper {
 	min-height: 100%;
 	position: relative;
+	opacity: 0;
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	transition: all 2s ease-in-out;
 }
 #zHeader {
 	padding: 10px;
@@ -17,10 +23,10 @@ html, body {
 #zBody {
 	padding-top: 10px;
 	padding-bottom: 80px; /* Height of the footer element */
-	width: 980px;
+	max-width: 980px;
 	height: 500px;
 	margin: auto;
-
+	text-align: center;
 }
 #zFooter {
 	width: 100%;

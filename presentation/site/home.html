@@ -5,21 +5,37 @@
 <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
 <link rel="stylesheet" type="text/css" href="../assets/css/util.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Emerging Technologies</title>
+<script type="text/javascript" src="../assets/js/utils.js"></script>
+<script type="text/javascript" src="../assets/js/utils_fullscreen.js"></script>
+<title>Multimedia Presentation - Emerging Technologies</title>
 </head>
 
-<body>
+<body onload="FSNotice_checkFullscreen_and_Load()">
+<div id="xFS_Notice" class="gNoMargin">
+  <h1>This presentation works best in fullscreen mode!</h1>
+  <p><a class="xFS_Notice_btn" onclick="FSNotice_accept()">Okay, go fullscreen</a></p>
+  <p><a class="xFS_Notice_btn" onclick="FSNotice_dismiss()">Don't go fullscreen</a></p>
+  <br />
+  <p><a class="xFS_Notice_btn" onclick="FSNotice_deny()">No, don't ask me again for this session.</a></p>
+</div>
+<div id="xFS_Notice_bg"></div>
 <div id="zWrapper">
   <div id="zHeader">Emerging Technologies</div>
   <div id="zBody">
     <div id="xTiles">
-      <div id="xCategoryOne" class="xCategory gPushLeft">s</div>
-      <div id="xCategoryTwo" class="xCategory gPushRight">vbsss</div>
-      <div id="xCategoryThree" class="xCategory gPushLeft">c</div>
-      <div id="xCategoryFour" class="xCategory gPushRight">da </div>
+      <div id="xCategoryOne_tip" class="xCategory_tip gPushLeft">Category One</div>
+      <div id="xCategoryTwo_tip" class="xCategory_tip gPushRight">Category Two</div>
+      <div id="xCategoryThree_tip" class="xCategory_tip gPushLeft">Category Three</div>
+      <div id="xCategoryFour_tip" class="xCategory_tip gPushRight">Category Four</div>
+    </div>
+    <div id="xCategory">
+      <div id="xCategoryOne"></div>
+      <div id="xCategoryTwo"></div>
+      <div id="xCategoryThree"></div>
+      <div id="xCategoryFour"></div>
     </div>
   </div>
-  <div id="zFooter"></div>
+  <div id="zFooter">Navigation Menu</div>
 </div>
 </body>
 </html>
