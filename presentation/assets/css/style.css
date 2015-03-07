@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 @font-face {
   font-family: 'Bebas Neue';
-  src: url('//bearbear12345.github.io/school_ipt_2015_as1/presentation/assets/fonts/BebasNeue.eot?') format('eot'), url('//bearbear12345.github.io/school_ipt_2015_as1/presentation/assets/fonts/BebasNeue.woff') format('woff'), url('//bearbear12345.github.io/school_ipt_2015_as1/presentation/assets/fonts/BebasNeue.ttf') format('truetype');
+  src: url('http://bearbear12345.github.io/school_ipt_2015_as1/presentation/assets/fonts/BebasNeue.eot?') format('eot'), url('http://bearbear12345.github.io/school_ipt_2015_as1/presentation/assets/fonts/BebasNeue.woff') format('woff'), url('http://bearbear12345.github.io/school_ipt_2015_as1/presentation/assets/fonts/BebasNeue.ttf') format('truetype');
 }
 html, body {
 	margin: 0;
