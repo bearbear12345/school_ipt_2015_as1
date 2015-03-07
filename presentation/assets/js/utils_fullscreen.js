@@ -21,7 +21,7 @@ function util_exitFullscreen() {
 function FSNotice_dismiss() {
   document.getElementById("xFS_Notice_bg").style.display = "none";
   document.getElementById("xFS_Notice").style.display = "none";
-  showPage();
+  presentation_showPage();
 }
 
 function FSNotice_accept() {
@@ -39,6 +39,6 @@ function FSNotice_checkFullscreen_and_Load() {
     document.getElementById("xFS_Notice_bg").style.display = "inline";
     document.getElementById("xFS_Notice").style.display = "inline";
   } else {
-    showPage();
+    presentation_showPage();
   }
 }

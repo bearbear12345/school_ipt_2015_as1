@@ -5,12 +5,14 @@
 <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
 <link rel="stylesheet" type="text/css" href="../assets/css/util.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script type="text/javascript" src="../assets/js/utils.js"></script>
+<script type="text/javascript" src="../assets/js/loader.js"></script>
+<script type="text/javascript" src="../assets/js/presentation.js"></script>
 <script type="text/javascript" src="../assets/js/utils_fullscreen.js"></script>
+<script type="text/javascript" src="../assets/js/mycontextmenu.js"></script>
 <title>Multimedia Presentation - Emerging Technologies</title>
 </head>
 
-<body onload="FSNotice_checkFullscreen_and_Load()">
+<body>
 <div id="xFS_Notice" class="gNoMargin">
   <h1>This presentation works best in fullscreen mode!</h1>
   <p><a class="xFS_Notice_btn" onclick="FSNotice_accept()">Okay, go fullscreen</a></p>
@@ -23,19 +25,22 @@
   <div id="zHeader">Emerging Technologies</div>
   <div id="zBody">
     <div id="xTiles">
-      <div id="xCategoryOne_tip" class="xCategory_tip gPushLeft">Category One</div>
-      <div id="xCategoryTwo_tip" class="xCategory_tip gPushRight">Category Two</div>
-      <div id="xCategoryThree_tip" class="xCategory_tip gPushLeft">Category Three</div>
-      <div id="xCategoryFour_tip" class="xCategory_tip gPushRight">Category Four</div>
+      <div onclick="presentation_selectCategory(this)" id="xCategoryOne_tip" class="xCategory_tip gPushLeft">Category One</div>
+      <div onclick="presentation_selectCategory(this)" id="xCategoryTwo_tip" class="xCategory_tip gPushRight">Category Two</div>
+      <div onclick="presentation_selectCategory(this)" id="xCategoryThree_tip" class="xCategory_tip gPushLeft">Category Three</div>
+      <div onclick="presentation_selectCategory(this)" id="xCategoryFour_tip" class="xCategory_tip gPushRight">Category Four</div>
     </div>
+
     <div id="xCategory">
-      <div id="xCategoryOne"></div>
-      <div id="xCategoryTwo"></div>
-      <div id="xCategoryThree"></div>
-      <div id="xCategoryFour"></div>
+      <div id="xCategoryOne">Hello squid.</div>
+      <div id="xCategoryTwo">Hello plant.</div>
+      <div id="xCategoryThree">Hello China.</div>
+      <div id="xCategoryFour">Goodbye world!</div>
     </div>
   </div>
-  <div id="zFooter">Navigation Menu</div>
+  <div id="zFooter">
+  <div id="zFooter_wrapper">Navigation Menu<span id="zAuthor">Andrew Wong<br /> Shaurya Thiharie</span></div>
+  </div>
 </div>
 </body>
 </html>

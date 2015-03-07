@@ -1,26 +1,23 @@
-/* Home style */
 .xFS_Notice_btn {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  background: #a8a8a8;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  -webkit-transition: all 100ms ease-in-out;
-  -moz-transition: all 100ms ease-in-out;
-  -o-transition: all 100ms ease-in-out;
-  transition: all 100ms ease-in-out;
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	background: #a8a8a8;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	-webkit-transition: all 100ms ease-in-out;
+	-moz-transition: all 100ms ease-in-out;
+	-o-transition: all 100ms ease-in-out;
+	transition: all 100ms ease-in-out;
 }
-
 .xFS_Notice_btn:hover {
-  background: #7a7a7a;
-  text-decoration: none;
+	background: #7a7a7a;
+	text-decoration: none;
 }
 #xFS_Notice_bg {
-	/* Overlay background styles */
 	display: none;
 	position: fixed;
 	top: 0%;
@@ -61,9 +58,13 @@
 }
 
 /* */
-#xTiles {
-}
 
+#xTiles {
+	-webkit-transition: all 4s ease-in-out;
+	-moz-transition: all 4s ease-in-out;
+	-o-transition: all 4s ease-in-out;
+	transition: all 4s ease-in-out;
+}
 .xCategory_tip {
 	height: 300px;
 	width: 50%;
@@ -71,29 +72,31 @@
 	display: block;
 	opacity: 0.5;
 	filter: alpha(opacity=50);
-	-webkit-transition: all 800ms ease-in-out;
-	-moz-transition: all 800ms ease-in-out;
-	-o-transition: all 800ms ease-in-out;
-	transition: all 800ms ease-in-out;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
 }
-
-
 .xCategory_tip:hover {
 	opacity: 1;
-    filter: alpha(opacity=100);
+	filter: alpha(opacity=100);
+	cursor: pointer;
 }
-
 #xCategoryOne_tip {
 	background-color: #E7DF81;
 }
-
 #xCategoryTwo_tip {
 	background-color: #C36D93;
 }
 #xCategoryThree_tip {
 	background-color: #569A83;
-	
 }
 #xCategoryFour_tip {
 	background-color: #6E619F;
+}
+
+/* */
+
+#xCategory {
+	display: none;
 }
