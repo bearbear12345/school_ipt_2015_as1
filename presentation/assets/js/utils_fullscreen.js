@@ -35,7 +35,7 @@ function FSNotice_deny() {
 }
 
 function FSNotice_checkFullscreen_and_Load() {
-  if (!window.fullScreen && (!sessionStorage.hasOwnProperty("zFullscreenPrompt") || sessionStorage.getItem("zFullscreenPrompt") != "never")) {
+  if (!window.fullScreen && sessionStorage.getItem("zFullscreenPrompt") != "never") {
     document.getElementById("xFS_Notice_bg").style.display = "inline";
     document.getElementById("xFS_Notice").style.display = "inline";
   } else {
