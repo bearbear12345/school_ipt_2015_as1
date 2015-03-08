@@ -1,5 +1,6 @@
 /*
-Copyright (C) 2021 Pascal de Vink (Tweakers.net)
+https://gist.github.com/pascaldevink/2380129
+Copyright (C) 2012 Pascal de Vink (Tweakers.net)
 
 This library is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
