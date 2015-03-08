@@ -15,9 +15,13 @@ function FSNotice_deny() {
 }
 
 function FSNotice_checkFullscreen_and_Load() {
-  if (!window.fullScreen && sessionStorage.getItem("zFullscreenPrompt") != "never") {
-    document.getElementById("xFS_Notice_bg").style.display = "inline";
-    document.getElementById("xFS_Notice").style.display = "inline";
+  if (!(navigator.userAgent.indexOf('MSIE') !== -1 || navigator.appVersion.indexOf('Trident/') > 0)) {
+    if (!window.fullScreen && sessionStorage.getItem("zFullscreenPrompt") != "never") {
+      document.getElementById("xFS_Notice_bg").style.display = "inline";
+      document.getElementById("xFS_Notice").style.display = "inline";
+    } else {
+      presentation_showPage();
+    }
   } else {
     presentation_showPage();
   }
