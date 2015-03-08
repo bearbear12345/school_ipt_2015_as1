@@ -4,6 +4,7 @@ window.onload = function() {
 	for (i=0;i<document.getElementsByClassName("xCategory_tip").length;i++){
 	  document.getElementsByClassName("xCategory_tip")[i].style.opacity=1;
 	}
+	presentation_showPage();
   } else {
 	FSNotice_checkFullscreen_and_Load();
     zContextMenu_createElement();
