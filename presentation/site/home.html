@@ -7,7 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="text/javascript" src="../assets/js/loader.js"></script>
 <script type="text/javascript" src="../assets/js/presentation.js"></script>
-<script type="text/javascript" src="../assets/js/utils_fullscreen.js"></script>
+<script type="text/javascript" src="../assets/js/fullscreen.js"></script>
+<script type="text/javascript" src="http://bearbear12345.github.io/js_snippets/util_css.js"></script>
+<script type="text/javascript" src="http://bearbear12345.github.io/js_snippets/util_fullscreen.js"></script>
+<script type="text/javascript" src="http://bearbear12345.github.io/js_snippets/util_colours.js"></script>
 <script type="text/javascript" src="../assets/js/mycontextmenu.js"></script>
 <title>Multimedia Presentation - Emerging Technologies</title>
 </head>
@@ -22,7 +25,7 @@
 </div>
 <div id="xFS_Notice_bg"></div>
 <div id="zWrapper">
-  <div id="zHeader">Emerging Technologies</div>
+  <div id="zHeader"><div id="zHeader_wrapper"><div onclick="presentation_goMainMenu()" id="zHomeIcon" class="gPushLeft"></div>Emerging Technologies</div></div>
   <div id="zBody">
     <div id="xTiles">
       <div onclick="presentation_selectCategory(this)" id="xCategoryOne_tip" class="xCategory_tip gPushLeft">Category One</div>
@@ -39,7 +42,7 @@
     </div>
   </div>
   <div id="zFooter">
-  <div id="zFooter_wrapper">Navigation Menu<span id="zAuthor">Andrew Wong<br /> Shaurya Thiharie</span></div>
+  <div id="zFooter_wrapper">Right click page to see the navigation menu...<span id="zAuthor" class="gPushRight">Andrew Wong<br /> Shaurya Thiharie</span></div>
   </div>
 </div>
 </body>
