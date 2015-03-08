@@ -1,23 +1,3 @@
-function util_enterFullscreen() {
-  var element = document.documentElement;
-  try {
-    element.mozRequestFullScreen();
-    element.webkitRequestFullScreen();
-    element.requestFullscreen();
-    element.msRequestFullscreen();
-  } catch (e) {}
-}
-
-function util_exitFullscreen() {
-  var element = document.documentElement;
-  try {
-    element.mozCancelFullScreen();
-    element.webkitExitFullScreen();
-    element.exitFullscreen();
-    element.msExitFullscreen();
-  } catch (e) {}
-}
-
 function FSNotice_dismiss() {
   document.getElementById("xFS_Notice_bg").style.display = "none";
   document.getElementById("xFS_Notice").style.display = "none";
