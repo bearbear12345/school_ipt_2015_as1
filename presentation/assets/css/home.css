@@ -60,6 +60,7 @@
 
 /* Category tiles */
 #xTiles {
+	padding-top: 30px;
 	-webkit-transition: all 4s ease-in-out;
 	-moz-transition: all 4s ease-in-out;
 	-o-transition: all 4s ease-in-out;
@@ -99,4 +100,13 @@
 /* Actual categories */
 #xCategory {
 	display: none;
+}
+
+#xCategory_name {
+	padding: 10px;
+	height: 26px;
+	margin: 0 -100%;
+	background-color: #BFBFBF;
+	font-family: 'Bebas Neue';
+	font-size: 26px;
 }

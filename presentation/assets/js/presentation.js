@@ -18,6 +18,8 @@ function presentation_selectCategory(elem) {
   document.getElementById("xCategoryFour").style.display = "none";
   document.getElementById(elem.id.slice(0, -4)).style.display = "inline";
   presentation_themeColour("rgba"+window.getComputedStyle(document.getElementById(elem.id)).backgroundColor.slice(3,-1)+", 0.5)");
+  document.getElementById("xCategory_name").innerHTML=document.getElementById(elem.id).innerHTML;
+  document.getElementById("xCategory_name").style.backgroundColor = window.getComputedStyle(document.getElementById(elem.id)).backgroundColor;
   document.getElementById("zHomeIcon").style.opacity = 1;
 }
 
