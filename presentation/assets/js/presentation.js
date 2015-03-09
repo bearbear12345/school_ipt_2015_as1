@@ -4,8 +4,8 @@ function presentation_showPage() {
 
 function presentation_goMainMenu() {
   document.getElementById("xCategory").style.display = "none";
-  document.getElementById("xTiles").style.display = "inline";
-  document.getElementById("zHomeIcon").style.opacity = 0.1;
+  document.getElementById("xTiles").style.display = "inherit";
+  document.getElementById("zHomeIcon").style.opacity = 0.05;
   presentation_themeColour("#BFBFBF");
 }
 

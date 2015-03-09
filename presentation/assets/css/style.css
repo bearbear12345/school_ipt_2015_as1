@@ -39,6 +39,7 @@ html, body {
 }
 #zHomeIcon {
 	background: url(../images/home.svg);
+	position: absolute;
 	cursor: pointer;
 	height: 35px;
 	width: 35px;
