@@ -12,18 +12,27 @@ function presentation_goMainMenu() {
 function presentation_selectCategory(elem) {
   document.getElementById("xTiles").style.display = "none";
   document.getElementById("xCategory").style.display = "inline";
-  document.getElementById("xCategoryOne").style.display = "none";
-  document.getElementById("xCategoryTwo").style.display = "none";
-  document.getElementById("xCategoryThree").style.display = "none";
-  document.getElementById("xCategoryFour").style.display = "none";
+
+
+  for (i = 0; i < (elems = ["xCategoryOne", "xCategoryTwo", "xCategoryThree", "xCategoryFour"]).length; i++) {
+    if (elems[i] != elem.id) {
+      document.getElementById(elems[i]).style.opacity = "0";
+      document.getElementById(elems[i]).style.display = "none";
+    }
+
+  }
   document.getElementById(elem.id.slice(0, -4)).style.display = "inline";
-  presentation_themeColour("rgba"+window.getComputedStyle(document.getElementById(elem.id)).backgroundColor.slice(3,-1)+", 0.5)");
-  document.getElementById("xCategory_name").innerHTML=document.getElementById(elem.id).innerHTML;
-  document.getElementById("xCategory_name").style.backgroundColor = window.getComputedStyle(document.getElementById(elem.id)).backgroundColor;
+  presentation_themeColour("rgba" + window.getComputedStyle(document.getElementById(elem.id)).backgroundColor.slice(3, -1) + ", 0.5)");
   document.getElementById("zHomeIcon").style.opacity = 1;
+
+  window.setTimeout(function() {
+    document.getElementById("xCategory").style.opacity = "1";
+    document.getElementById("xCategory_name").innerHTML = document.getElementById(elem.id).innerHTML;
+    document.getElementById("xCategory_name").style.backgroundColor = window.getComputedStyle(document.getElementById(elem.id)).backgroundColor;
+  }, 0);
 }
 
 function presentation_themeColour(colour) {
-	document.getElementById("zHeader").style.backgroundColor = colour;
-	document.getElementById("zFooter").style.backgroundColor = colour;
+  document.getElementById("zHeader").style.backgroundColor = colour;
+  document.getElementById("zFooter").style.backgroundColor = colour;
 }
