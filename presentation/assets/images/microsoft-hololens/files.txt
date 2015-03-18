@@ -1,0 +1,2 @@
+microsoft-hololens-front.jpg -> microsoft_holo-12_0.jpg
+microsoft-hololens-side.jpg -> microsoft-hololens-lg-1500x1000.jpg
