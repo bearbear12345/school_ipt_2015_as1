@@ -57,7 +57,6 @@
 #xFS_Notice p a {
 	font-weight: 700;
 }
-
 /* Category tiles */
 #xTiles {
 	padding-top: 30px;
@@ -65,7 +64,6 @@
 	-moz-transition: all 4s ease-in-out;
 	-o-transition: all 4s ease-in-out;
 	transition: all 4s ease-in-out;
-	
 }
 .xCategory_tip {
 	height: 300px;
@@ -85,18 +83,25 @@
 	cursor: pointer;
 }
 #xCategoryOne_tip {
+	background: linear-gradient(rgba(231, 223, 129, 0.5), rgba(231, 223, 129, 0.5)), url(../images/microsoft-hololens/microsoft-hololens-front.jpg) no-repeat;
+	background-color: #E7DF81;
+}
+#xCategoryOne_tip:hover {
+	background: linear-gradient(rgba(231, 223, 129, 0.5), rgba(231, 223, 129, 0.5)), url(../images/microsoft-hololens/microsoft-hololens-front.jpg) -160px -30px;
 	background-color: #E7DF81;
 }
 #xCategoryTwo_tip {
+	background: linear-gradient(rgba(195, 109, 147, 0.5), rgba(195, 109, 147, 0.5)), url(../images/microsoft-hololens/microsoft-hololens-front.jpg);
 	background-color: #C36D93;
 }
 #xCategoryThree_tip {
+	background: linear-gradient(rgba(86, 154, 131, 0.5), rgba(86, 154, 131, 0.5)), url();
 	background-color: #569A83;
 }
 #xCategoryFour_tip {
+	background: linear-gradient(rgba(110, 97, 159, 0.5), rgba(110, 97, 159, 0.5)), url();
 	background-color: #6E619F;
 }
-
 /* Actual categories */
 #xCategory {
 	display: none;
@@ -105,7 +110,6 @@
 	-o-transition: all 400ms ease-in-out;
 	transition: all 400ms ease-in-out;
 }
-
 #xCategory_name {
 	padding: 10px;
 	height: 26px;
