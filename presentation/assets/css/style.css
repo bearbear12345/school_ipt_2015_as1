@@ -38,7 +38,7 @@ html, body {
 	max-width: 980px;
 }
 #zHomeIcon {
-	background: url(../images/home.svg);
+	background: url(../images/icons/home.svg);
 	position: absolute;
 	cursor: pointer;
 	height: 35px;
