@@ -57,6 +57,7 @@
 #xFS_Notice p a {
 	font-weight: 700;
 }
+
 /* Category tiles */
 #xTiles {
 	padding-top: 30px;
@@ -70,8 +71,8 @@
 	width: 50%;
 	margin: 0;
 	display: block;
-	opacity: 0.5;
-	filter: alpha(opacity=50);
+	opacity: 0.6;
+	filter: alpha(opacity=60);
 	-webkit-transition: all 400ms ease-in-out;
 	-moz-transition: all 400ms ease-in-out;
 	-o-transition: all 400ms ease-in-out;
@@ -87,21 +88,30 @@
 	background-color: #E7DF81;
 }
 #xCategoryOne_tip:hover {
-	background: linear-gradient(rgba(231, 223, 129, 0.5), rgba(231, 223, 129, 0.5)), url(../images/microsoft-hololens/microsoft-hololens-front.jpg) -160px -30px;
+	background: linear-gradient(rgba(231, 223, 129, 0.5), rgba(231, 223, 129, 0.5)), url(../images/microsoft-hololens/microsoft-hololens-front.jpg) no-repeat -160px -30px;
 	background-color: #E7DF81;
 }
 #xCategoryTwo_tip {
-	background: linear-gradient(rgba(195, 109, 147, 0.5), rgba(195, 109, 147, 0.5)), url(../images/microsoft-hololens/microsoft-hololens-front.jpg);
+	background: linear-gradient(rgba(195, 109, 147, 0.5), rgba(195, 109, 147, 0.5)), url(../images/project-ara/project-ara-wall.png) center no-repeat;
+	background-color: #C36D93;
+}
+#xCategoryTwo_tip:hover {
+	background: linear-gradient(rgba(195, 109, 147, 0.5), rgba(195, 109, 147, 0.5)), url(../images/project-ara/project-ara-wall.png) center top no-repeat;
 	background-color: #C36D93;
 }
 #xCategoryThree_tip {
-	background: linear-gradient(rgba(86, 154, 131, 0.5), rgba(86, 154, 131, 0.5)), url();
+	background: linear-gradient(rgba(86, 154, 131, 0.5), rgba(86, 154, 131, 0.5)), url(../images/zoomable-contact-lens/zoomable-contact-lens-tile.jpg) no-repeat;
+	background-color: #569A83;
+}
+#xCategoryThree_tip:hover {
+	background: linear-gradient(rgba(86, 154, 131, 0.5), rgba(86, 154, 131, 0.5)), url(../images/zoomable-contact-lens/zoomable-contact-lens-tile.jpg) center no-repeat;
 	background-color: #569A83;
 }
 #xCategoryFour_tip {
-	background: linear-gradient(rgba(110, 97, 159, 0.5), rgba(110, 97, 159, 0.5)), url();
+	background: linear-gradient(rgba(110, 97, 159, 0.5), rgba(110, 97, 159, 0.5)), url(../images/smart-machines/tile.jpg) 0 0/490px 100% no-repeat;
 	background-color: #6E619F;
 }
+
 /* Actual categories */
 #xCategory {
 	display: none;

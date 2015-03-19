@@ -1,7 +1,6 @@
 function zContextMenu_createElement() {
   util_addCSS("#zContextMenu {background-color: gainsboro; border: 3px solid darkgray; border-radius: 5px; display: none; position: absolute; z-index:1000;}", "#zContextMenu ul {cursor: pointer; list-style: none; list-style-type: none; margin: 0; padding: 0;}", "#zContextMenu ul li {padding: 0 5px;}", "#zContextMenu ul li:hover {background-color: darkgray}", ".zContextMenu_category {background-color: darkgray; cursor: default; font-size: 24px; font-weight: 700;}");
-  zContextMenu = document.createElement("div");
-  zContextMenu.id = "zContextMenu";
+  (zContextMenu = document.createElement("div")).id = "zContextMenu";
   zContextMenu.innerHTML = "<ul><li class=\"zContextMenu_category\">Navigation</li><li><a onclick=\"presentation_goMainMenu()\">Main Menu</a></li><li><a onclick=\"zContextMenu_selectCategory(\'xCategoryOne_tip')\">Cat1</a></li><li><a onclick=\"zContextMenu_selectCategory(\'xCategoryTwo_tip')\">Cat2</a></li><li><a onclick=\"zContextMenu_selectCategory(\'xCategoryThree_tip')\">Cat3</a></li><li><a onclick=\"zContextMenu_selectCategory(\'xCategoryFour_tip')\">Cat4</a></li></ul>";
   document.getElementsByTagName('body')[0].appendChild(zContextMenu);
 }

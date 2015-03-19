@@ -68,8 +68,7 @@ html, body {
 	-webkit-transition: all 400ms ease-in-out;
 	-moz-transition: all 400ms ease-in-out;
 	-o-transition: all 400ms ease-in-out;
-	transition: all 400ms ease-in-out;
-		
+	transition: all 400ms ease-in-out;	
 }
 #zFooter_wrapper {
 	margin: auto;
