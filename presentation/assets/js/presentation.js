@@ -19,8 +19,8 @@ function presentation_selectCategory(elem) {
       document.getElementById(elems[i]).style.opacity = "0";
       document.getElementById(elems[i]).style.display = "none";
     }
-
   }
+  document.getElementById(elem.id.slice(0, -4)).style.opacity = 1;
   document.getElementById(elem.id.slice(0, -4)).style.display = "inline";
   presentation_themeColour("rgba" + window.getComputedStyle(document.getElementById(elem.id)).backgroundColor.slice(3, -1) + ", 0.5)");
   document.getElementById("zHomeIcon").style.opacity = 1;
