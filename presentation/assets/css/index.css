@@ -53,6 +53,7 @@
     position: relative;
     top: 25%;
     margin-bottom: 20px;
+    padding: 5px;
 }
 #xFS_Notice p a {
     font-weight: 700;
@@ -78,7 +79,7 @@
     cursor: pointer;
 }
 .xCategory_tip p {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     -webkit-transition: all 400ms ease-in-out;
 	-moz-transition: all 400ms ease-in-out;
 	-o-transition: all 400ms ease-in-out;
@@ -87,7 +88,7 @@
 }
 .xCategory_tip:hover p {
     font-size: 50px;
-    color: #BFBFBF;
+    color: #FFFFFF;
 }
 #xCategoryOne_tip {
     background: linear-gradient(rgba(231, 223, 129, 0.5), rgba(231, 223, 129, 0.5)), url(../images/microsoft-hololens/microsoft-hololens-front.jpg) no-repeat;

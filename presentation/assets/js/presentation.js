@@ -4,7 +4,7 @@ function presentation_showPage() {
 
 function presentation_goMainMenu() {
   document.getElementById("xCategory").style.opacity = "0";
-  document.getElementById("zHomeIcon").style.opacity = 0.05;
+  document.getElementById("zHomeIcon").style.opacity = "0.05";
   document.getElementById("xCategory_name").style.opacity = "0";
   presentation_themeColour("#BFBFBF");
   window.setTimeout(function() {
