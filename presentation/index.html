@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <link rel="stylesheet" type="text/css" href="./assets/css/home.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/util.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -22,45 +22,45 @@
       <p><a class="xFS_Notice_btn" onclick="FSNotice_deny()">No, don't ask me again for this session.</a></p>
     </div>
     <div id="xFS_Notice_bg"></div>
-    <div id="zWrapper">
-      <div id="zHeader">
+    <div id="zWrapper" class="gStartHidden">
+      <div id="zHeader" class="gTransition">
         <div id="zHeader_wrapper">
           <div onclick="presentation_goMainMenu()" id="zHomeIcon" class="gPushLeft"></div>
           Emerging Technologies 
         </div>
       </div>
       <div id="zBody">
-        <div id="xTiles">
-          <div onclick="presentation_selectCategory(this)" id="xCategoryOne_tip" class="xCategory_tip gPushLeft">Microsoft Hololens</div>
-          <div onclick="presentation_selectCategory(this)" id="xCategoryTwo_tip" class="xCategory_tip gPushRight">Project Ara</div>
-          <div onclick="presentation_selectCategory(this)" id="xCategoryThree_tip" class="xCategory_tip gPushLeft">Zoomable Contact Lens</div>
-          <div onclick="presentation_selectCategory(this)" id="xCategoryFour_tip" class="xCategory_tip gPushRight">Smart Machines</div>
+        <div id="xTiles" class="gTransition">
+          <div onclick="presentation_selectCategory(this)" id="xCategoryOne_tip" class="xCategory_tip gPushLeft gTransition"><p>Microsoft Hololens</p></div>
+          <div onclick="presentation_selectCategory(this)" id="xCategoryTwo_tip" class="xCategory_tip gPushRight gTransition"><p>Project Ara</p></div>
+          <div onclick="presentation_selectCategory(this)" id="xCategoryThree_tip" class="xCategory_tip gPushLeft gTransition"><p>Zoomable Contact Lens</p></div>
+          <div onclick="presentation_selectCategory(this)" id="xCategoryFour_tip" class="xCategory_tip gPushRight gTransition"><p>Smart Machines</p></div>
         </div>
-        <div id="xCategory">
-          <div id="xCategory_name"></div>
-          <div id="xCategoryOne">
+        <div id="xCategory" class="gTransition">
+          <div id="xCategory_name" class="gTransition gStartHidden"></div>
+          <div id="xCategoryOne" class="gTransition gStartHidden">
             <h1>What Is It?</h1>
             <p>The <b>Microsoft Hololens</b> is a pair of smart glasses designed by <i>Microsoft</i>. It works with Windows 10 to bring holograms to the real world. Others people don't see what you see, but only see you wearing glasses. The glasses project holograms onto its translucent lenses, where hand gestures can be used to interact with the projections. The glasses overlay images over the real world.</p>
             <h1>How Does It Work?</h1>
             <p>The glasses track your movements and where you are looking at, and blasts light at your eyes to compute where you are looking at. It also has a on-board computer that does all the processing, and will allow features to work alongside a Windows 10 operating system on a computer. It has an array of sensors on it that allow you to move around and see every aspect of the item you are trying to look at. The glasses also have a camera so that it knows where items are, and can place holograms on or in them.</p>
             <h1>Watch A Video</h1>
-            <iframe src="http://www.youtube.com/embed/aThCr0PsyuA?&rel=0&showinfo=0&modestbranding=1&hd=1&autohide=1&color=white&autoplay=0" frameborder="0" allowfullscreen></iframe>
+            <iframe src="http://www.youtube.com/embed/aThCr0PsyuA?rel=0&showinfo=0&modestbranding=1&hd=1&autohide=1&color=white&autoplay=0" frameborder="0" allowfullscreen></iframe>
             <h1>Images</h1>
             <img src="./assets/images/microsoft-hololens/crop_microsoft-hololens-front.jpg"/><br/><br/><br/>
             <img src="./assets/images/microsoft-hololens/crop_microsoft-hololens-side.png"/><br/><br/><br/><br/><br/>
           </div>
-          <div id="xCategoryTwo">
+          <div id="xCategoryTwo" class="gTransition gStartHidden">
             <h1>What Is It?</h1>
             <p><b>Project Ara</b>, by <i>Google</i>, is a modular smartphone that allows the user to customise and personalise each part of the phone to his or her own liking. These parts are not developed by Google, but instead other companies, and are installed as modules into the phone, fitting into a slot in the phone. These modules include a better camera, phone or speaker. The interchangeable parts promote the idea of recycling old modules instead of throwing away a whole phone to upgrade a specific part in mind, hence reducing the amount of mobile phone waste each year.</p>
             <h1>How Does It Work?</h1>
             <p>Project Ara is designed like an endoskeleton, where modules are inserted into slots in the phone. Currently, there is a limit to the maximum number of modules installed at any one time, however this will likely change. The module installation and usage is ‘plug and play’, meaning that the modules will function as soon as they are inserted. The project is currently set on improving its third prototype, named <i>Spiral 3</i>, which allows 20-30 modules, and is currently being piloted in Puerto Rico. </p>
             <h1>Watch A Video</h1>
-            <iframe src="http://www.youtube.com/embed/intua_p4kE0?&rel=0&showinfo=0&modestbranding=1&hd=1&autohide=1&color=white&autoplay=0" frameborder="0" allowfullscreen></iframe>
+            <iframe src="http://www.youtube.com/embed/intua_p4kE0?rel=0&showinfo=0&modestbranding=1&hd=1&autohide=1&color=white&autoplay=0" frameborder="0" allowfullscreen></iframe>
             <h1>Images</h1>
             <img src="./assets/images/project-ara/project-ara-anatomy.jpg"/>
             <img src="./assets/images/project-ara/project-ara-sizes.png"/><br/><br/><br/>
           </div>
-          <div id="xCategoryThree">
+          <div id="xCategoryThree" class="gTransition gStartHidden">
             <h1>What Is It?</h1>
             <p>The <b>Zoomable Contact Lens</b> are a pair of contact lenses, that can zoom in up to 2.8x maginification. They are developed by <i>École polytechnique fédérale de Lausanne</i>, a Swiss company, to help people with age-related macular degeneration. The product is still in its prototyping stage. DARPA, America's defence research department, is funding part of the developement of contact lens, to give America's fighter pilots and soldiers apparent 'super vision' in combat.</p>
             <h1>How Does It Work?</h1>
@@ -70,7 +70,7 @@
             <img src="./assets/images/zoomable-contact-lens/zoomable-contact-lens.jpg"/>
             <img src="./assets/images/zoomable-contact-lens/zoomable-contact-lens-size.jpg"/><br/><br/><br/><br/>
           </div>
-          <div id="xCategoryFour">
+          <div id="xCategoryFour" class="gTransition gStartHidden">
             <h1>What Are They?</h1>
             <p>Smart Machines are computing systems that are able to perform problem solving and decision making, without human input. They are able to accomplish what was previously thought to be only accomplishable by humans. Apple's <b>Siri</b>, and Microsoft's <b>Cortana</b>, intelligent digital assistant software, are two examples of these smart machine technologies. They use data from the surrounding environment, the internet, as well as habits to suggest and/or perform tasks and actions.<br/><br/>
               Take it a step further, and you have Google's <b>Self-Driving Car</b>. A true smart machine, this technology is an unmanned car that utilises various sensors placed around its body to navigate around roads. With safety features to avoid crashing and casualties, it is truly a smart machine. In the future, with technologies utilising information from their surroundings, truck driving, forklifting, carrying heavy equipment, and other tasks can be performed with increasing accuracy and efficiency.
@@ -78,19 +78,19 @@
             <h1>How Do They Work?</h1>
             <p>Smart Machines work in many different ways, depending on their function and purpose. For instance IBM's <b>Watson</b> uses input data and information from its surroundings to respond to questions through advanced algorithms. Siri and Cortana provide task assistance and voice functions through previously issued questions or commands. And the Self-Driving Car uses sensors around the car as well as its inbuilt GPS to determine when and where to go.</p>
             <h1>Videos</h1>
-            <iframe src="http://www.youtube.com/embed/r-4yNMSNGV4?&rel=0&showinfo=0&modestbranding=1&hd=1&autohide=1&color=white&autoplay=0" frameborder="0" allowfullscreen></iframe>
-            <iframe src="http://www.youtube.com/embed/WFR3lOm_xhE?&rel=0&showinfo=0&modestbranding=1&hd=1&autohide=1&color=white&autoplay=0" frameborder="0" allowfullscreen></iframe>
-            <iframe src="http://www.youtube.com/embed/TsaES--OTzM?&rel=0&showinfo=0&modestbranding=1&hd=1&autohide=1&color=white&autoplay=0" frameborder="0" allowfullscreen></iframe>
+            <iframe src="http://www.youtube.com/embed/r-4yNMSNGV4?rel=0&showinfo=0&modestbranding=1&hd=1&autohide=1&color=white&autoplay=0" frameborder="0" allowfullscreen></iframe>
+            <iframe src="http://www.youtube.com/embed/WFR3lOm_xhE?rel=0&showinfo=0&modestbranding=1&hd=1&autohide=1&color=white&autoplay=0" frameborder="0" allowfullscreen></iframe>
+            <iframe src="http://www.youtube.com/embed/TsaES--OTzM?rel=0&showinfo=0&modestbranding=1&hd=1&autohide=1&color=white&autoplay=0" frameborder="0" allowfullscreen></iframe>
             <h1>Images</h1>
             <img src="./assets/images/smart-machines/google-self-driving-car.jpg"/>
             <img src="./assets/images/smart-machines/watson.png"/>
-            <img src="./assets/images/smart-machines/cortana.jpg" width="640px" style="border-radius: 10px"/>
+            <img src="./assets/images/smart-machines/cortana.jpg"/>
             <img src="./assets/images/smart-machines/siri.jpg"/><br/><br/><br/><br/>
           </div>
         </div>
       </div>
     </div>
-    <div id="zFooter">
+    <div id="zFooter" class="gTransition">
       <div id="zFooter_wrapper"><span id="zContextMenuTip">Right click page to see the navigation menu...</span><span id="zAuthor" class="gPushRight">Andrew Wong<br />Shaurya Thiharie</span> 
       </div>
     </div>

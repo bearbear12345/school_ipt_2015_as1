@@ -61,10 +61,6 @@
 /* Category tiles */
 #xTiles {
     padding-top: 30px;
-    -webkit-transition: all 4s ease-in-out;
-    -moz-transition: all 4s ease-in-out;
-    -o-transition: all 4s ease-in-out;
-    transition: all 4s ease-in-out;
 }
 .xCategory_tip {
     height: 300px;
@@ -72,20 +68,26 @@
     margin: 0;
     display: block;
     font-family: 'Bebas Neue';
-    font-size: 24px;
+    font-size: 30px;
     opacity: 0.6;
     filter: alpha(opacity=60);
-    -webkit-transition: all 400ms ease-in-out;
-    -moz-transition: all 400ms ease-in-out;
-    -o-transition: all 400ms ease-in-out;
-    transition: all 400ms ease-in-out;
 }
 .xCategory_tip:hover {
-    font-size: 50px;
-    color: #D3D3D3;
     opacity: 1;
     filter: alpha(opacity=100);
     cursor: pointer;
+}
+.xCategory_tip p {
+    background-color: rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+	margin: 122px auto;
+}
+.xCategory_tip:hover p {
+    font-size: 50px;
+    color: #BFBFBF;
 }
 #xCategoryOne_tip {
     background: linear-gradient(rgba(231, 223, 129, 0.5), rgba(231, 223, 129, 0.5)), url(../images/microsoft-hololens/microsoft-hololens-front.jpg) no-repeat;
@@ -119,10 +121,6 @@
 /* Actual categories */
 #xCategory {
     display: none;
-    -webkit-transition: all 400ms ease-in-out;
-    -moz-transition: all 400ms ease-in-out;
-    -o-transition: all 400ms ease-in-out;
-    transition: all 400ms ease-in-out;
 }
 #xCategory p {
     margin: 0 auto;

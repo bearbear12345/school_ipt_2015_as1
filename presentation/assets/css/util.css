@@ -7,3 +7,12 @@
 .gNoMargin {
 	margin: 0 auto;
 }
+.gTransition {
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+.gStartHidden {
+    opacity: 0;
+}

@@ -8,16 +8,17 @@ html, body {
 	padding: 0;
 	height: 100%;
 	cursor: default;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 #zWrapper {
 	min-height: 100%;
 	position: relative;
-	opacity: 0;
 	-webkit-transition: all 1s ease-in-out;
 	-moz-transition: all 1s ease-in-out;
 	-o-transition: all 1s ease-in-out;
 	transition: all 1s ease-in-out;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 #zHeader {
 	padding: 10px;
@@ -27,11 +28,6 @@ html, body {
 	font-family: 'Bebas Neue';
 	font-size: 30px;
 	text-transform: uppercase;
-	-webkit-transition: all 400ms ease-in-out;
-	-moz-transition: all 400ms ease-in-out;
-	-o-transition: all 400ms ease-in-out;
-	transition: all 400ms ease-in-out;
-		
 }
 #zHeader_wrapper {
 	margin: auto;
@@ -65,10 +61,6 @@ html, body {
 	left: 0;
 	padding: 5px;
 	background-color: #BFBFBF;
-	-webkit-transition: all 400ms ease-in-out;
-	-moz-transition: all 400ms ease-in-out;
-	-o-transition: all 400ms ease-in-out;
-	transition: all 400ms ease-in-out;	
 }
 #zFooter_wrapper {
 	margin: auto;
