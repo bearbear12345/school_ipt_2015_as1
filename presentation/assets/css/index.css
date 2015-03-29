@@ -69,7 +69,6 @@
     margin: 0;
     display: block;
     font-family: 'Bebas Neue';
-    font-size: 30px;
     opacity: 0.6;
     filter: alpha(opacity=60);
 }
@@ -79,6 +78,8 @@
     cursor: pointer;
 }
 .xCategory_tip p {
+    font-size: 40px;
+    color: #D3D3D3;
     background-color: rgba(0, 0, 0, 0.5);
     -webkit-transition: all 400ms ease-in-out;
 	-moz-transition: all 400ms ease-in-out;
