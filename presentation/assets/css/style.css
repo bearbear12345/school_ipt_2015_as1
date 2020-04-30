@@ -1,72 +1,74 @@
 /* Global style */
 @font-face {
-  font-family: 'Bebas Neue';
-  src: url('http://bearbear12345.github.io/school_ipt_2015_as1/presentation/assets/fonts/BebasNeue.eot?') format('eot'), url('http://bearbear12345.github.io/school_ipt_2015_as1/presentation/assets/fonts/BebasNeue.woff') format('woff'), url('http://bearbear12345.github.io/school_ipt_2015_as1/presentation/assets/fonts/BebasNeue.ttf') format('truetype');
+  font-family: "Bebas Neue";
+  src: url("../fonts/BebasNeue.eot?") format("eot"),
+    url("../fonts/BebasNeue.woff") format("woff"),
+    url("../fonts/BebasNeue.ttf") format("truetype");
 }
-html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	cursor: default;
-	overflow: hidden;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  cursor: default;
+  overflow: hidden;
 }
 #zWrapper {
-	min-height: 100%;
-	position: relative;
-	-webkit-transition: all 1s ease-in-out;
-	-moz-transition: all 1s ease-in-out;
-	-o-transition: all 1s ease-in-out;
-	transition: all 1s ease-in-out;
-	overflow-x: hidden;
-	overflow-y: scroll;
+  min-height: 100%;
+  position: relative;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 #zHeader {
-	padding: 10px;
-	height: 30px;
-	background-color: #BFBFBF;
-	text-align: center;
-	font-family: 'Bebas Neue';
-	font-size: 30px;
-	text-transform: uppercase;
+  padding: 10px;
+  height: 30px;
+  background-color: #bfbfbf;
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  text-transform: uppercase;
 }
 #zHeader_wrapper {
-	margin: auto;
-	max-width: 980px;
+  margin: auto;
+  max-width: 980px;
 }
 #zHomeIcon {
-	background: url(../images/icons/home.svg);
-	position: absolute;
-	cursor: pointer;
-	height: 35px;
-	width: 35px;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-	opacity: 0;
+  background: url(../images/icons/home.svg);
+  position: absolute;
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
 }
 #zBody {
-	padding-bottom: 40px;
-	max-width: 980px;
-	height: 500px;
-	margin: auto;
-	text-align: center;
-		
+  padding-bottom: 40px;
+  max-width: 980px;
+  height: 500px;
+  margin: auto;
+  text-align: center;
 }
 #zFooter {
-	width: 100%;
-	height: 40px;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	padding: 5px;
-	background-color: #BFBFBF;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #bfbfbf;
 }
 #zFooter_wrapper {
-	margin: auto;
-	max-width: 980px;
+  margin: auto;
+  max-width: 980px;
 }
 #zAuthor {
-	padding-right: 10px;
-	text-align: right;
+  padding-right: 10px;
+  text-align: right;
 }
